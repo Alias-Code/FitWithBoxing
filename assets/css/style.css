@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1;
+}
+
+.custom-hr {
+  border: 2px solid #8b0000;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.row {
+  margin-right: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+header {
+  height: 87vh;
+}
+
+footer {
+  margin-top: 4em;
+}
+
+nav i,
+footer i {
+  font-size: 2.2em;
+  margin-right: 0.5em;
+}
+
+h1,
+h2 {
+  font-family: "Black Ops One", system-ui;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Arvo";
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-collapse {
+    background-color: rgba(0, 24, 76, 0.7882352941);
+    margin-top: 10px;
+  }
+  nav a {
+    margin-left: 2em;
+  }
+}
+.custom-button-1 {
+  background-color: #00184c;
+  color: white;
+}
+
+.custom-button-1:hover {
+  background-color: rgb(5, 18, 45);
+  color: white;
+}
+
+.custom-button-2 {
+  background-color: #8b0000;
+  color: white;
+}
+
+.custom-button-2:hover {
+  background-color: rgb(106, 14, 14);
+  color: white;
+}
+
+.custom-bgc,
+nav,
+footer {
+  background-color: #00184c;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  background: #00184c;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #8b0000;
+  border-radius: 10px;
+}
+
+a,
+i {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(200, 200, 200);
+  transition: all 0.3s ease;
+}
+
+i:hover {
+  color: #8b0000;
+  transition: color 0.3s ease;
+}
+
+h1,
+h2 {
+  color: #8b0000;
+}
+
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.home-nav {
+  background-color: rgba(0, 24, 76, 0.7882352941);
+}
+
+.newsletter {
+  background-color: #00184c;
+  color: white;
+  text-align: center;
+  padding: 3em;
+}
+
+.why-us-image {
+  border-radius: 1em;
+}
+
+.why-us {
+  margin-top: 4em;
+}
+
+.why-us-text {
+  margin-bottom: 4em;
+}
+
+.why-us i {
+  color: #8b0000;
+  font-size: 2em;
+}
+
+.text-overlay {
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text-overlay h1, .text-overlay h2 {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.text-overlay h1 {
+  font-size: 4em;
+}
+
+.text-overlay h2 {
+  color: white;
+}
+
+.text-overlay h2 span {
+  font-size: 1.5em;
+}
+
+.articles {
+  position: relative;
+}
+
+.articles img {
+  border-radius: 10px;
+}
+
+.prix {
+  position: absolute;
+  background-color: #8b0000;
+  padding: 0.4em 0.8em;
+  border-radius: 10px;
+  color: white;
+  top: 3%;
+  left: 6%;
+  display: flex;
+  align-items: center;
+}
+
+.prix p {
+  margin-bottom: 0;
+}
+
+.prix i {
+  font-size: 1.2em;
+  margin-right: 0.4em;
+}
+
+.informations p {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.informations p i {
+  color: #8b0000;
+  font-size: 1.5em;
+}/*# sourceMappingURL=style.css.map */

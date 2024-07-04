@@ -1,0 +1,62 @@
+.custom-button-1 {
+  background-color: $third_color;
+  color: white;
+}
+
+.custom-button-1:hover {
+  background-color: rgb(5, 18, 45);
+  color: white;
+}
+
+.custom-button-2 {
+  background-color: $main_color;
+  color: white;
+}
+
+.custom-button-2:hover {
+  background-color: rgb(106, 14, 14);
+  color: white;
+}
+
+.custom-bgc,
+nav,
+footer {
+  background-color: $third_color;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  background: $third_color;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: $main_color;
+  border-radius: 10px;
+}
+
+a,
+i {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(200, 200, 200);
+  transition: all 0.3s ease;
+}
+
+i:hover {
+  color: $main_color;
+  transition: color 0.3s ease;
+}
+
+h1,
+h2 {
+  color: $main_color;
+}

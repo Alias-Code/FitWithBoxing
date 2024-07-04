@@ -1,0 +1,37 @@
+.articles {
+  position: relative;
+}
+
+.articles img {
+  border-radius: 10px;
+}
+.prix {
+  position: absolute;
+  background-color: $main_color;
+  padding: 0.4em 0.8em;
+  border-radius: 10px;
+  color: white;
+  top: 3%;
+  left: 6%;
+  display: flex;
+  align-items: center;
+}
+
+.prix p {
+  margin-bottom: 0;
+}
+
+.prix i {
+  font-size: 1.2em;
+  margin-right: 0.4em;
+}
+
+.informations p {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.informations p i {
+  color: $main_color;
+  font-size: 1.5em;
+}

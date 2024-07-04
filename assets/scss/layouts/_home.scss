@@ -1,0 +1,64 @@
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-nav {
+  background-color: #00184cc9;
+}
+
+.newsletter {
+  background-color: $third_color;
+  color: white;
+  text-align: center;
+  padding: 3em;
+}
+
+.why-us-image {
+  border-radius: 1em;
+}
+
+.why-us {
+  margin-top: 4em;
+}
+
+.why-us-text {
+  margin-bottom: 4em;
+}
+
+.why-us i {
+  color: $main_color;
+  font-size: 2em;
+}
+
+.text-overlay {
+  backdrop-filter: blur(4px);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay h1, .text-overlay h2 {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.text-overlay h1 {
+  font-size: 4em;
+}
+
+.text-overlay h2 {
+  color: white;
+}
+
+.text-overlay h2 span {
+  font-size: 1.5em;
+}
